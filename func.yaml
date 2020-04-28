@@ -1,0 +1,9 @@
+schema_version: 20180708
+name: fn-connect-to-atp
+version: 0.0.2
+runtime: java
+build_image: fnproject/fn-java-fdk-build:jdk11-1.0.108
+run_image: fnproject/fn-java-fdk:jre11-1.0.108
+cmd: com.example.fn.HelloFunction::handleRequest
+memory: 128
+timeout: 120
